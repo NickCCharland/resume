@@ -4,5 +4,9 @@ body {
 
 h1 {
 	font-weight: 700;
-	font-size: 1.5em;
+	font-size: 3em;
+}
+
+.header {
+	background: linear-gradient(to bottom, white 70%, #44ff87 30%);
 }
