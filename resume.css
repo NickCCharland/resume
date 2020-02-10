@@ -2,6 +2,8 @@ body {
 	font-family: 'Montserrat', sans-serif;
 	margin: auto;
 	padding: 0 200px 0 200px;
+	border: 10px;
+	border-color: black;
 }
 
 .column1 {
@@ -39,5 +41,5 @@ img {
 }
 
 h2 {
-
+	
 }
