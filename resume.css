@@ -1,6 +1,6 @@
 body {
 	font-family: 'Montserrat', sans-serif;
-	background: url(resumebackground.png) fixed;
+	background: url(resumebackground.png);
 }
 
 .content {
@@ -39,8 +39,9 @@ h1::before {
 	content: "\01F44B";
 }
 
+
 .header {
-	background: linear-gradient(to bottom, rgba(255,255,255,0.01) 80%, #3cb79b 20%);
+	background: linear-gradient(to bottom, rgba(255,255,255,0.01) 90%, #3cb79b 10%);
 	width: 240px;
 }
 
@@ -54,21 +55,42 @@ img {
 }
 
 h2 {
+	font-size: 1.5em;
 	text-decoration: underline;
 	letter-spacing: 1px;
 	color: #3cb79b;
 }
 
-a {
+h3 {
+	font-size: 1.25em;
+	color: #3F3F37;
+}
+
+a:link {
 	text-decoration: none;
 	font-weight: 600;
 	color: #C5BEBB;
 }
+
 a:visited {
 	color: #C5BEBB;
 }
+
+/*a:focus {
+	background-color: #546D64;
+}*/
+
 a:hover {
+	color: #546D64;
+}
+
+a:active {
 	color: #000;
+}
+
+p, li {
+	font-size: 1em;
+	color: #546D64;
 }
 
 .odd {
