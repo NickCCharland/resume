@@ -5,36 +5,24 @@ body {
 
 #container {
 	display: grid;
-	grid-template-rows: 1fr 2fr;
-	grid-template-columns: 1fr 1fr;
-}
-
-.content {
-	max-width: 930px;
-	margin: auto;
-	padding-top: 50px;
-	padding-bottom: 50px;
-}
-
-#photo {
-	grid-row-start: 2;
-	grid-row-end: 3;
-	grid-column-start: 2;
-	grid-column-end: 3;
+	grid-template-rows: auto auto auto;
+	grid-template-columns: auto auto;
+	grid-gap: 20px;
 }
 
 #head {
 	grid-row-start: 1;
 	grid-row-end: 2;
-	grid-column-start: 1;
-	grid-column-end: 2;
 }
 
-#contact-grid {
+#sidebar {
 	grid-row-start: 2;
 	grid-row-end: 3;
-	grid-column-start: 1;
-	grid-column-end: 2;
+}
+
+#experience {
+	grid-row-start: -3;
+	grid-row-end: -2;
 }
 
 h1 {
@@ -95,6 +83,39 @@ p, li {
 	font-size: 1em;
 	color: #546D64;
 }
+
+ .fa-linkedin-in {
+        font-size: 40px;
+        transition: color 0.5s;
+        color: #D9DADA;
+        transition: font-size 0.5s;
+   }
+   .fa-linkedin-in:hover {
+    color: #44ff87;
+    font-size: 55px;
+   }
+
+   .fa-envelope {
+        font-size: 40px;
+        transition: color 0.5s;
+        color: #D9DADA;
+        transition: font-size 0.5s;
+   }
+   .fa-envelope:hover {
+    color: #44ff87;
+    font-size: 55px;
+   }
+
+   .fa-dribbble {
+        font-size: 40px;
+        transition: color 0.5s;
+        color: #D9DADA;
+        transition: font-size 0.5s;
+   }
+   .fa-dribbble:hover {
+    color: #44ff87;
+    font-size: 55px;
+   }
 
 .odd {
 	list-style-image: url(custom_bullet.svg);
