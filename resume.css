@@ -3,6 +3,12 @@ body {
 	background: url(resumebackground.png);
 }
 
+#container {
+	display: grid;
+	grid-template-rows: 1fr 2fr;
+	grid-template-columns: 1fr 1fr;
+}
+
 .content {
 	max-width: 930px;
 	margin: auto;
@@ -10,23 +16,25 @@ body {
 	padding-bottom: 50px;
 }
 
-.column1 {
-  float: left;
-  width: 40%;
-  padding-top: 40px;
-  
+#photo {
+	grid-row-start: 2;
+	grid-row-end: 3;
+	grid-column-start: 2;
+	grid-column-end: 3;
 }
 
-.column2 {
-  float: left;
-  width: 60%;
-  padding-top: 40px;
+#head {
+	grid-row-start: 1;
+	grid-row-end: 2;
+	grid-column-start: 1;
+	grid-column-end: 2;
 }
 
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
+#contact-grid {
+	grid-row-start: 2;
+	grid-row-end: 3;
+	grid-column-start: 1;
+	grid-column-end: 2;
 }
 
 h1 {
@@ -41,11 +49,7 @@ h1 {
 }
 
 img {
-	float: right;
-	position: absolute;
 	border-radius: 50%;
-	right: 22%;
-	
 }
 
 h2 {
