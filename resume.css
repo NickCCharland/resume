@@ -1,6 +1,7 @@
 body {
 	font-family: 'Montserrat', sans-serif;
 	background: url(resumebackground.png);
+	padding: 100px 50px 100px 50px;
 }
 
 #container {
@@ -23,6 +24,13 @@ body {
 #experience {
 	grid-row-start: -3;
 	grid-row-end: -2;
+}
+
+#bottom {
+	display: flex;
+	grid-area: 3 / -3 / 4 / -1;
+	justify-content: center;
+	text-align: center;
 }
 
 h1 {
