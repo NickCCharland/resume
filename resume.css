@@ -1,6 +1,6 @@
 body {
 	font-family: 'Montserrat', sans-serif;
-	background: url(resumebackground.png);
+	background: #eeeeee/*url(resumebackground.png)*/;
 	padding: 100px 150px 100px 150px;
 }
 
@@ -8,7 +8,15 @@ body {
 	display: grid;
 	grid-template-rows: auto auto auto;
 	grid-template-columns: auto auto;
-	grid-gap: 20px;
+	grid-gap: 30px;
+	/*border-style: solid;
+	border-width: 0.25px;*/
+	padding: 20px 20px;
+	/*background: #333;*/  /* fallback for old browsers */
+	/*background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(226, 240,254, 1) 0%, rgba(255, 247, 228, 1) 90%);*/
+	border-radius: 15px;
+	box-shadow: 18px 18px 36px #e4e4e4, -18px -18px 36px #f8f8f8;
+
 }
 
 #head {
@@ -36,6 +44,11 @@ body {
 	text-align: center;
 }
 
+.icons {
+	display: flex;
+	justify-content: space-around;
+}
+
 h1 {
 	font-weight: 700;
 	font-size: 3em;
@@ -48,7 +61,11 @@ h1 {
 }
 
 img {
+	border-style: solid;
+	border-width: 8px;
+	border-color: #eeeeee;
 	border-radius: 50%;
+	box-shadow: 8px 8px 5px #e4e4e4, -8px -8px 5px #f8f8f8;
 }
 
 h2 {
@@ -96,41 +113,41 @@ p, li {
 	line-height: 1.6;
 }
 
- .fa-linkedin-in {
-        font-size: 40px;
-        transition: color 0.5s;
-        color: #D9DADA;
-        transition: font-size 0.5s;
-   }
-   .fa-linkedin-in:hover {
-    color: #44ff87;
-    font-size: 55px;
-   }
+.fa-linkedin-in {
+	font-size: 40px;
+	transition: color 0.5s;
+	color: #D9DADA;
+	transition: font-size 0.5s;
+}
+.fa-linkedin-in:hover {
+	color: #546D64;
+	font-size: 55px;
+}
 
-   .fa-envelope {
-        font-size: 40px;
-        transition: color 0.5s;
-        color: #D9DADA;
-        transition: font-size 0.5s;
-   }
-   .fa-envelope:hover {
-    color: #44ff87;
-    font-size: 55px;
-   }
+.fa-envelope {
+	font-size: 40px;
+	transition: color 0.5s;
+	color: #D9DADA;
+	transition: font-size 0.5s;
+}
+.fa-envelope:hover {
+	color: #546D64;
+	font-size: 55px;
+}
 
-   .fa-dribbble {
-        font-size: 40px;
-        transition: color 0.5s;
-        color: #D9DADA;
-        transition: font-size 0.5s;
-   }
-   .fa-dribbble:hover {
-    color: #44ff87;
-    font-size: 55px;
-   }
+.fa-dribbble {
+	font-size: 40px;
+	transition: color 0.5s;
+	color: #D9DADA;
+	transition: font-size 0.5s;
+}
+.fa-dribbble:hover {
+	color: #546D64;
+	font-size: 55px;
+}
 
 .odd {
-	list-style-image: url(custom_bullet.svg);
+	list-style-image: url(custom_bullet.png);
 }
 
 .even {
